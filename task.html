@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fill in the Gaps - Abbreviations Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .instructions {
+            background-color: #e7f3fe;
+            padding: 10px;
+            border-left: 4px solid #2196F3;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        select {
+            padding: 5px;
+            margin-left: 10px;
+        }
+        .word-bank {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin-top: 30px;
+        }
+        #result {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #e2ffe2;
+            border: 2px solid #4CAF50;
+            display: none;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📄 Task01: Fill in the Gaps with the Correct Abbreviation</h1>
+
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <p>Select the correct abbreviation for each sentence and click "Check Answers"!</p>
+    </div>
+
+    <form id="quiz">
+        <div class="questions">
+            <!-- Task 1 questions -->
+            <div class="question">1. When you send a short text from one phone to another, you are using
+                <select name="q1">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+            </div>
+            <div class="question">2. To talk with friends online instantly, you often use
+                <select name="q2">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                apps like WhatsApp.
+            </div>
+
+            <div class="question">3. I sent my friend a private
+                <select name="q3">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                on Instagram about the party.
+            </div>
+
+            <div class="question">4. During lockdown, we used
+                <select name="q4">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                to have online classes with video and sound.
+            </div>
+
+            
+
+            <div class="question">5. Before joining the Zoom meeting, I had to enter the meeting
+                <select name="q6">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>.
+            </div>
+
+            <div class="question">6. The teacher shared a
+                <select name="q7">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                so we could join the online class easily.
+            </div>
+
+            <div class="question">7. To keep my data safe while using public Wi-Fi, I always connect through a
+                <select name="q8">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>.
+            </div>
+
+            <div class="question">8. I posted a funny
+                <select name="q9">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                in the group chat that everyone loved.
+            </div>
+
+
+            <div class="question">9. I told my friend
+                <select name="q11">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                because I needed to grab a quick snack.
+            </div>
+
+            <div class="question">10. I went
+                <select name="q12">
+                    <option value="">--Choose--</option>
+                    <option value="SMS">SMS</option>
+                    <option value="IM">IM</option>
+                    <option value="DM">DM</option>
+                    <option value="VC">VC</option>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="ID">ID</option>
+                    <option value="URL">URL</option>
+                    <option value="VPN">VPN</option>
+                    <option value="GIF">GIF</option>
+                    <option value="LOL">LOL</option>
+                    <option value="BRB">BRB</option>
+                    <option value="AFK">AFK</option>
+                </select>
+                for a while because I had to help my mom in the kitchen.
+            </div>
+        </div>
+
+            
+        
+
+        <button type="button" onclick="checkAnswers()">Check Answers</button>
+
+        <div id="result"></div>
+    </form>
+
+    <div class="word-bank">
+        <h2>Word Bank:</h2>
+        <p>SMS, IM, DM, VC, Wi-Fi, ID, URL, VPN, GIF, LOL, BRB, AFK</p>
+    </div>
+
+    
+    <h1>📄 Task02: Fill in the Gaps with the Correct Abbreviation</h1>
+    <div class="question">
+        1. Chatting started in the 1980s.<br>
+        <select id="t1">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        2. Zoom is a popular chatting app.<br>
+        <select id="t2">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        3. Video conferencing allows people to see and hear each other online.<br>
+        <select id="t3">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        4. WhatsApp is used only for video calls.<br>
+        <select id="t4">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        5. Chatting helps people communicate quickly and easily.<br>
+        <select id="t5">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        6. During the COVID-19 pandemic, video conferencing became less important.<br>
+        <select id="t6">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        7. Telegram is a fast and safe chatting app.<br>
+        <select id="t7">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        8. One disadvantage of video conferencing is bad internet connection.<br>
+        <select id="t8">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        9. In the future, communication technology might include holograms.<br>
+        <select id="t9">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <div class="question">
+        10. Video conferencing is always better than face-to-face meetings.<br>
+        <select id="t10">
+            <option value="">--Choose--</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+
+    <button onclick="checkAnswers()">Check All Answers</button>
+
+    <div id="finalResult" class="result"></div>
+
+<script>
+    function checkAnswers() {
+        let score = 0;
+        let total = 20; 
+  
+        const fillAnswers = {
+          q1: "SMS",
+          q2: "IM",
+          q3: "DM",
+          q4: "VC",
+          
+          q6: "ID",
+          q7: "URL",
+          q8: "VPN",
+          q9: "GIF",
+          
+          q11: "BRB",
+          q12: "AFK"
+        };
+  
+        const trueFalseAnswers = {
+          t1: "True",
+          t2: "False",
+          t3: "True",
+          t4: "False",
+          t5: "True",
+          t6: "False",
+          t7: "True",
+          t8: "True",
+          t9: "True",
+          t10: "False"
+        };
+  
+        let resultHTML = "<h2>Results</h2>";
+  
+        
+        resultHTML += "<h3>Task01: Fill in the Gaps</h3>";
+        for (let key in fillAnswers) {
+          const userAnswer = document.querySelector(`[name="${key}"]`).value;
+          if (userAnswer === fillAnswers[key]) {
+            score++;
+            resultHTML += `<p class="correct">✅ ${key.toUpperCase()} Correct</p>`;
+          } else {
+            resultHTML += `<p class="wrong">❌ ${key.toUpperCase()} Wrong (Answer: ${fillAnswers[key]})</p>`;
+          }
+        }
+  
+       
+        resultHTML += "<h3>Task02: True or False</h3>";
+        for (let key in trueFalseAnswers) {
+          const userAnswer = document.getElementById(key).value;
+          if (userAnswer === trueFalseAnswers[key]) {
+            score++;
+            resultHTML += `<p class="correct">✅ ${key.toUpperCase()} Correct</p>`;
+          } else {
+            resultHTML += `<p class="wrong">❌ ${key.toUpperCase()} Wrong (Answer: ${trueFalseAnswers[key]})</p>`;
+          }
+        }
+  
+        resultHTML += `<h2>Your Total Score: ${score}/${total}</h2>`;
+  
+        document.getElementById("finalResult").innerHTML = resultHTML;
+      }
+</script>
+
+</body>
+</html>
